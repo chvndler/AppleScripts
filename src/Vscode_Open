@@ -1,0 +1,6 @@
+set ignoredList to {"Electron"}
+
+tell application "System Events" to tell process "Code"
+    set visible to true
+    set frontmost to true
+end tell
